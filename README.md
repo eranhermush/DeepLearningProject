@@ -4,6 +4,7 @@ You can find here the source code of the project, in the `ipynb` file.
 The file is seperated to sections - load the data (from Kaggle), prepare the data, data visualizations, understand the birds, define the variables for training, mel spectrogram effect, deep models, train functions and train and test
 
 in the `torch_objects` you can find the saved weights, you can use them like this script:
+(Please note that you need to extract the `resnet_weights` zip file before you can use it)
 
 ```python
 path = "torch_objects/resnet_weights.pth"
